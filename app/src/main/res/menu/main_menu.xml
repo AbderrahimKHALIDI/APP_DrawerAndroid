@@ -13,6 +13,12 @@
     <item android:title="Info"
         android:icon="@drawable/baseline_info_24"
         android:id="@+id/info"/>
+    <item android:title="Galerie"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/galerie"/>
+    <item android:title="Exchane"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/exchange"/>
 
 </group>
     <group>

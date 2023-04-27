@@ -44,6 +44,14 @@ private ActionBarDrawerToggle toggle;
                      getSupportFragmentManager().beginTransaction().replace(R.id.myframeLayout,new ProfilFragment()).commit();
                      drawerLayout.closeDrawer(GravityCompat.START);
                      break;
+                 case R.id.galerie:
+                     getSupportFragmentManager().beginTransaction().replace(R.id.myframeLayout,new GalerieFragment()).commit();
+                     drawerLayout.closeDrawer(GravityCompat.START);
+                     break;
+                 case R.id.exchange:
+                     getSupportFragmentManager().beginTransaction().replace(R.id.myframeLayout,new ExchangeFragment()).commit();
+                     drawerLayout.closeDrawer(GravityCompat.START);
+                     break;
              }
 
 
